@@ -1,0 +1,10 @@
+/* Jumbotron custom theme */
+.jumbotron{
+    text-align: center;
+    background: url('../assets/library.jpg') no-repeat;
+    height: 60%;
+}
+.jumbotron h1{
+    color: white;
+    text-transform: capitalize;
+}
