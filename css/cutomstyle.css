@@ -1,10 +1,81 @@
-/* Jumbotron custom theme */
-.jumbotron{
-    text-align: center;
-    background: url('../assets/library.jpg') no-repeat;
-    height: 60%;
+/*=====================
+    Buttons
+========================+*/
+.btn-general{
+    border-width: 2px;
+    padding: 15px 20px;
+    color: rgb(14, 231, 202);
+    font-family: font-family: 'Quicksand', sans-serif;
+  border-radius:none;
+  margin-bottom: 100px;
+  font-size: 18px;
+  font-weight: 500;
 }
-.jumbotron h1{
+
+.btn-general:hover,
+.btn-general:active{
     color: white;
-    text-transform: capitalize;
+    background-color: rgb(82, 221, 112);
+}
+
+
+
+#home-cover{
+
+    height: 100vh;
+    width: 100%;
+
+}
+
+#home-page-desc{
+    font-family: 'Titillium Web', sans-serif;
+       
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        position: absolute;
+        margin: auto;
+        height: 120px;
+        width: 100%;
+        text-align: center;    
+}
+
+#home-page-desc h1{
+    font-size: 60px;
+    color: rgb(191, 212, 97);
+    font-weight: 600;
+    text-shadow: 2px 2px 0 rgba(0, 0, 0, .8);
+}
+
+#home-page-desc p{
+    font-size: 35px;
+    font-weight: bold;
+    color: rgb(155, 233, 110);
+    text-shadow: 2px 2px 0 rgba(0, 0, 0, .5);
+}
+
+.parallax-window {
+    min-height: 400px;
+    background: transparent;
+}
+
+
+
+#maps{
+    margin : 20px;
+}
+
+
+.mapouter{
+    text-align:right;
+    height:620px;
+    width:1300px;
+}
+
+.gmap_canvas {
+    overflow:hidden;
+    background:none!important;
+    height:620px;
+    width:1300px;
 }
