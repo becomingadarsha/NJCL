@@ -19,7 +19,7 @@
     <section class="bg-light">
         <!-- Navbar Left Content-->
       <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <a class="navbar-brand" href="#" >NJCL</a>
+        <a class="home navbar-brand" href="#"><img src="assets/logo.svg" height="30px" width="35px" class="mr-2">NJCL</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -28,12 +28,13 @@
           <ul class="navbar-nav mr-auto">
             
           </ul>
-          <ul class="navbar-nav my-2 my-lg-0">
+          <ul class="navbar-nav my-2 my-lg-0 h4">
             <li class="nav-item">
               <a class="nav-link" href="#">Home</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#about">About Us</a>
+            </li>
             <li class="nav-item">
               <a class="nav-link" href="#contact">Contact Us</a>
             </li>
@@ -46,158 +47,93 @@
       <!-- Few description about NJCL -->
       <div class="jumbotron jumbotron-fluid">
         <div class="container">
-          <h1 class="display-4">Nepal Japan Children Library</h1>
-          <p class="lead">This library is established for children.</p>
-          <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+          <h1 class="display-3">Nepal Japan Children Library</h1>
+          <p class="display-4 lead text-white">Learning is fun.</p>
+          <a class="btn btn-danger btn-lg" href="#" role="button">Learn more</a>
         </div>
       </div>
 
       <!-- Search Bar -->
-      <div class="row justify-content-center">
-          <div class="col-12 col-md-8 col-lg-7 col-sm-12">
-              <form>
-                  <div class=" row no-gutters align-items-center">
-                      <div class="col-auto">
-                          <i class="fas fa-search h4 text-body"></i>
-                      </div>
-                      <!--end of col-->
-                      <div class="col">
-                          <input class="form-control form-control-lg form-control-borderless" type="search" placeholder="Search Book Title/Author">
-                      </div>
-                      <!--end of col-->
-                      <div class="col-auto p-4 ml-3">
-                          <button class="btn btn-lg btn-success" type="submit">Search</button>
-                      </div>
-                      <!--end of col-->
+      
+          <section class="container">
+                <div class="row"> 
+                  <div class="col-10">
+                      <input style="height: 60px;" class="form-control mt-2" type="search" placeholder="Search Book Title/Author">
                   </div>
-              </form>
-              <a class="btn btn-primary btn-sm" href="#" role="button">Advanced Search</a>
-          </div>
-          <!--end of col-->
-      </div>
+                  
+                  <div class="col ">
+                      <button style="height: 60px;" class="btn btn-lg mt-2 mb-2" type="submit">Search</button>
+                  </div>
+                </div>
+              <a class="btn btn-lg mt-2 navbar-brand" href="advanced-search.html" role="button">Advanced Search</a>
+          </section >
+          
 
-      <section id="about" class="p-5">
+      <div style="margin-top: 500px"></div>    
+      <!-- About Us -->
+      <section id="about" class="pt-5 pb-5">
           <div class="container">
             <div class="row">
-              <div class="col-md-12 col-lg-12">
-                  <h4>About Us</h4>
+              <div class="col-md-12 col-lg-12 col-sm-12 ">
+                  <h2>About Us</h2>
                 <hr>
               </div>
             </div>
           </div>
       </section>
 
-      <section class="p-5" id="contact">
-          <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <h4>Contact Us</h4>
-                  <hr>
-                </div>
-              <div class="col-md-6">
-                  <!-- Address -->
-                  <h5>Address:</h5>
-                  <ul class="list-unstyled">
-                      <li> Lainchour</li>
-                      <li> PO Box 37380</li>
-                      
-                  </ul>
-                  <p>Please don't send anything to this address.</p>
-                  
-                  <!-- Email -->
-                  <h5>Email:</h5>
-                  <ul class="list-unstyled">
-                      <li> info@email.com</li>
-                      <li> info@email.com</li>
-                  </ul>
-                  
-                  <!-- Phone -->
-                      <h5>Phone:</h5>
-                      <ul class="list-unstyled">
-                      <li> 01-44xxx</li>
-                  </ul>
-                  
-                  <hr>
-                    <!-- Social contact -->
-                    <ul class="list-inline list-unstyled">
-                        <li class="list-inline-item">
-                            <a href="#"><i class="fa fa-facebook-square fa-2x"></i></a>
-                        </li>
-                        <li class="list-inline-item">
-                            <a href="#"><i class="fa fa-google-plus-square fa-2x"></i></a>
-                        </li>
-                        <li class="list-inline-item">
-                            <a href="#"><i class="fa fa-youtube-play fa-2x"></i></a>
-                        </li>
-                    </ul>
-                
-              </div>
-              <div class="col-md-6">
-                  <div class="card">
-                      <div class="card-body">
-                          <form>
-                                <div class="form-row">
-                                    <div class="form-group col-md-6">
-                                      <input id="Full Name" name="Full Name" placeholder="Full Name" class="form-control" type="text">
-                                    </div>
-                                    <div class="form-group col-md-6">
-                                      <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
-                                    </div>
-                                  </div>
-                                <div class="form-row">
 
-                                <div class="form-group col-md-6">
-                                    <input id="Mobile No." name="Mobile No." placeholder="Mobile No." class="form-control" required="required" type="text">
-                                </div>
-                                <div class="form-group col-md-6">
-                                  <select id="inputState" class="form-control">
-                                      <option selected>Choose ...</option>
-                                      <option>Enquiry</option>
-                                      <option> Complaint</option>
-                                      <option> Feedback</option>
-                                    </select>
-                                </div>
-                                <div class="form-group col-md-12">
-                                          <textarea id="comment" name="comment" cols="40" rows="5" placeholder="Your Message"class="form-control"></textarea>
-                                </div>
-                            </div>
-                            
-                            <div class="form-row">
-                                <button type="button" class="btn btn-general">Submit</button>
-                            </div>
-                        </form>
-                    </div>
-                </div>
-            </div>
-        </div>     
-      </div>
-    </section>
+<!-- Contact -->
 
-    <section id="njclmaps">
+<section>
+
+  <div id="contact">
       <div class="container">
-        <div class="row">
-          <div class="col-md-12 col-lg-12">
-              <h4>Location</h4>
-            <hr>
+          <div class="row">
+              <div class="col-sm-12 col-md-6 col-lg-6">                
+
+                <div id="contact-left">
+                      <h2>Contact Us</h2>
+                      <hr>
+                      <div id="contact-info">
+                        <ul class="list-unstyled">
+                          <li class="mt-3">Lainchaur marg, Kailash chowk, Lainchaur, Kathmandu, Bagmati, Nepal</li>
+                          <li class="mt-3">Phone no: 04-44xxx</li>
+                          <li class="mt-3"> PO Box no: 106</li>            
+                      </ul>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-sm-12 col-md-6 col-lg-6">
+                
+                <!-- Location -->
+
+                <section id="njclmaps">
+                  <h2>Location</h2>
+                  <hr>
+                  <div class="openstreetmap">
+                    <iframe width="100%" height="350px" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.openstreetmap.org/export/embed.html?bbox=85.31511157751085%2C27.718432737990046%2C85.3186520934105%2C27.720569685628092&amp;layer=mapnik" style="border: 1px solid black">
+                    </iframe>
+                    <br/>
+                    <small>
+                      <a href="https://www.openstreetmap.org/#map=19/27.71950/85.31688" target="_blank">View Larger Map</a>
+                    </small>
+                  </div> 
+                </section>
+              </div>
           </div>
-        </div>
-      <div class="mapouter">
-        <div class="gmap_canvas">
-          <iframe width="100%" height="600px" id="gmap_canvas" src="https://maps.google.com/maps?q=nepal%20japan%20children's%20library&t=&z=17&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0">
-          </iframe>
-        <!-- <a href="https://www.pureblack.de/google-maps/">pureblack.de</a></div> -->
-        </div> 
       </div>
-    </section>
+  </div>
+
+ 
+</section>
+
         <!-- Optional JavaScript -->
         <!-- jQuery first, then Popper.js, then Bootstrap JS -->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
         <script src="/js/parallax/parallax.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-        <script src="js/bootstrap.min.js"></script>
-            <!-- Google Map JS -->
-        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD9EdV2JfPG1Vfviw9gf_HlblIUfs7Ie2E"></script>
-            
+        <script src="js/bootstrap.min.js"></script>    
         <script src="js/custom.js"></script>
     </section>
   </body>
